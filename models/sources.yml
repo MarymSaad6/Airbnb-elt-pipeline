@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: Airbnb_DB      # Your Snowflake database
+    schema: raw               # Schema where raw data is stored
+    tables:
+      - name: airbnb_data
